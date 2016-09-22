@@ -1,0 +1,97 @@
+/*主页*/
+.main{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height:25%;
+    margin: auto;
+}
+
+/*错误页面*/
+.leftTime{
+    font-size:30px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+
+/*注册页面*/
+.form{
+   width:100%;
+   background-color: #eee;
+}
+.form-signin {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width:80%;
+    margin: auto;
+    padding:15% 15px;
+}
+.form-signin .form-signin-heading,
+.form-signin .resure {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="phone"] {
+    border-radius:0;
+}
+.password {
+    border-radius: 0;
+}
+.resure{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+/*下拉*/
+.select{
+    border-radius: .25rem;
+    border:.0625rem solid #ccc;
+    margin-bottom:10px;
+}
+.recoment-way{
+    margin-bottom:10px;
+ }
+.recoment-way label{
+    margin-right:20px;
+}
+.recoment-way input{
+    margin-right:5px;
+}
+
+/*登录页面*/
+.login-table{
+    margin-top:5%;
+}
+
+/*改变页面*/
+.form-change label{
+    width:100%
+}
+
+
